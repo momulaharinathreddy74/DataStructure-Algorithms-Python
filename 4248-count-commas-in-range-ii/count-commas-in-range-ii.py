@@ -20,7 +20,7 @@ class Solution:
             sec=(nu2-1000000+1)*2
             nu3=min(n,999999999999)
             ans=(nu3-1000000000+1)*3+fir+sec
-        elif 13<=nu<=15:
+        elif 13<=nu<16:
             nu1=min(n,999999)
             fir=nu1-1000+1
             nu2=min(n,999999999)
